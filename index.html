@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Фитнес резинки</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#benefits">Преимущества <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about-rubber">О Фитнес резинке</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#how-to-order">Доставка и оплата</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="timer_block">
+            <p>До конца скидки осталось:</p>
+            <div class="timer">
+                <div class="timer_item">
+                    <div class="count hours clearfix"><span>0</span><span>0</span></div>
+                    <div class="timer-text">часов</div>
+                </div>
+                <div class="timer_item">
+                    <div class="count minutes clearfix">
+                        <span>0</span><span>0</span>
+                    </div>
+                    <div class="timer-text">минут</div>
+                </div>
+                <div class="timer_item">
+                    <div class="count seconds clearfix">
+                        <span>0</span><span>0</span>
+                    </div>
+                    <div class="timer-text">секунд</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-button-nav">
+            <a href="#callback-form">
+                <button class="button-nav">Заказать со скидкой</button>
+            </a>
+        </div>
+
+        <div class="header-banner"></div>
+    </header>
+
+    <section class="wrapper-photo-text" id="benefits">
+        <div>
+            <h2>ПРЕИМУЩЕСТВА ИСПОЛЬЗОВАНИЯ РЕЗИНОК ДЛЯ ФИТНЕСА :</h2>
+        </div>
+        <div class="photo-text-box">
+            <img class="photo" src="./img/fitness1.jpg" alt="fitness1" />
+            <p>1. Укрепляем руки и плечи</p>
+        </div>
+        <div class="photo-text-box">
+            <img class="photo" src="./img/fitness2.jpg" alt="fitness2" />
+            <p>2. Качаем ягодицы</p>
+        </div>
+        <div class="photo-text-box">
+            <img class="photo" src="./img/fitness3.jpg" alt="fitness3" />
+            <p>3. Сжыгаем калории</p>
+        </div>
+        <div class="photo-text-box">
+            <img class="photo" src="./img/fitness4.jpg" alt="fitness4" />
+            <p>4. Делаем ноги стройнее</p>
+        </div>
+        <div class="photo-text-box">
+            <img class="photo" src="./img/fitness5.jpg" alt="fitness5" />
+            <p>5. Тренируемся везде в удобное нам время</p>
+        </div>
+    </section>
+
+    <section id="callback-form">
+        <div class="form-wrapper">
+            <h3>Купить сейчас</h3>
+            <form action="https://formspree.io/f/xwkwjavq" method="POST">
+                <input type="text" class="input-phone-name" placeholder="Имя" name="name" required />
+                <input type="tel" class="input-phone-name" placeholder="+38 (___) ___-__-__" name="number" required />
+                <input type="submit" class="submit-input" value="Заказать со скидкой" />
+            </form>
+        </div>
+    </section>
+
+    <section id="about-rubber">
+        <div>
+            <ul>
+                <li>
+                    <strong>100% латекс</strong> обеспечивает равномерное натяжение
+                </li>
+                <li>
+                    <strong>Не теряют эластичность</strong> при длительном использовании
+                </li>
+                <li><strong>Не рвутся</strong> даже при запредельных нагрузках</li>
+                <li><strong>В подарок</strong> стильный чехол</li>
+            </ul>
+
+            <ul>
+                <h4>В КОМПЛЕКТ ВХОДИТ 5 ФИТНЕС-РЕЗИНОК РАЗНОЙ УПРУГОСТИ:</h4>
+                <li>ЖЕЛТАЯ - 4 кг</li>
+                <li>ЗЕЛЕНАЯ - 8 кг</li>
+                <li>СИНЯЯ - 14 кг</li>
+                <li>КРАСНАЯ - 18 кг</li>
+                <li>ЧЕРНАЯ - 23 кг</li>
+                <li>Мешочек в подарок</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="how-to-order" class="wrapper-photo-text">
+        <h3>Как заказать?</h3>
+        <div class="photo-text-box">
+            <img class="order-photo" src="./img/order1step.jpg" alt="order1step" />
+            <p>Оставляете заявку на сайте</p>
+        </div>
+
+        <div class="photo-text-box">
+            <img class="order-photo" src="./img/order2step.jpg" alt="order2step" />
+            <p>Менеджер перезванивает для оформления заказа</p>
+        </div>
+
+        <div class="photo-text-box">
+            <img class="order-photo" src="./img/order3step.jpg" alt="order3step" />
+            <p>Мы отправляем Ваш заказ почтой в любой регион</p>
+        </div>
+
+        <div class="photo-text-box">
+            <img class="order-photo" src="./img/order4step.jpg" alt="order4step" />
+            <p>Вы оплачиваете заказ при получении</p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/timer.js"></script>
+</body>
+
+</html>
